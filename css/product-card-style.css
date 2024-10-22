@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif, Tahoma;
+}
+
+body{
+    background: black;
+}
+
+/* start main product card view */
+
+.product-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 120px;
+    width: 800px;
+    height: 500px;
+}
+
+.left-img-col{
+    height: 500px;
+    width: 400px;
+}
+
+.left-img-col img{
+    height: 500px;
+    width: 400px; 
+}
+
+.right-info-col{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    padding: 20px;
+    background: white;
+    height: 500px;
+    width: 400px;
+}
+
+.right-info-col h1{
+    font-size: 32px;
+    margin: 0 auto 15 0 ;
+    text-align: left;
+}
+
+.right-info-col h2{
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: lightgray;
+}
+
+.right-info-col p{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    padding: 0 0 20px 50px;
+}
+
+.available-colors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+
+/* the words "Available colors" */
+.available-colors span{
+    font-size: 14px;
+}
+
+.available-colors .black-color-container, .available-colors .red-color-container, .available-colors .beige-color-container{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.available-colors .black-color-container{
+    background: black;
+}
+
+.available-colors .red-color-container{
+    background: red;
+}
+
+.available-colors .beige-color-container{
+    background: beige;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+}
+
+/* price of the shoe */
+.price h4{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.price .buy-btn{
+    background: black;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    transition: pointer 0.3s ease;
+}
+
+.price .buy-btn:hover{
+    cursor: pointer;
+}
